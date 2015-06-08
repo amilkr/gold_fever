@@ -1,0 +1,6 @@
+log/
+logs/
+
+ebin/
+deps/
+_rel/

@@ -1,0 +1,14 @@
+{application, gold_fever, [
+	{description, ""},
+	{vsn, "0.1.0"},
+	{id, "git"},
+	{modules, []},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib,
+		cowboy
+	]},
+	{mod, {gold_fever_app, []}},
+	{env, []}
+]}.
