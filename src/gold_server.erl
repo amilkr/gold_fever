@@ -38,7 +38,7 @@ terminate(Reason, State) ->
   io:format("terminate -> Reason ~p State ~p ~n", [Reason, State]),
   ok.
 
-code_change(OldVsn, State, Extra) -> {ok, State}.
+code_change(_OldVsn, State, _Extra) -> {ok, State}.
 
 
 

@@ -19,7 +19,7 @@ main() ->
       gen_server:call({kathy, 'gold_fever@192.168.88.161'}, #{token => Token, name => larry}),
       gen_server:cast({kathy, 'gold_fever@192.168.88.161'}, #{token => Token, address => "http://192.168.88.46:8080"}),
 
-       % unregister('larry').
+       unregister('larry').
 
 listen() ->
 	 receive

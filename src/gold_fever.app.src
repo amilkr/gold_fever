@@ -7,7 +7,8 @@
 	{applications, [
 		kernel,
 		stdlib,
-		cowboy
+		cowboy,
+		katana
 	]},
 	{mod, {gold_fever_app, []}},
 	{env, []}
